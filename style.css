@@ -1,0 +1,398 @@
+/*
+Desenvolvido por: Matheus Alves Bento Ferreira
+*/
+
+html {
+  height: 100%;
+  width: 100%;
+  color: #3b3b3b;
+  font-family: 'Bradley Hand', cursive;
+  text-align: justify;
+  scroll-behavior: smooth;
+}
+
+.secao img {
+  max-width: 80%;
+
+}
+
+.titulos {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 80px;
+}
+
+.secao,
+.secao2 {
+  display: flex;
+  justify-content: center;
+}
+
+.secao1-1 {
+  margin: -10px;
+  color: #100d21;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+
+.botoes {
+  display: flex;
+}
+
+.botaocontato {
+  background-color: #5ea8b8;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 5%;
+  padding: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-weight: 800;
+  border: 0;
+  transition: transform 0.3s ease;
+  font-family: 'Bradley Hand', cursive;
+  border-radius: 5px;
+  margin-right: 35px;
+}
+
+.botaosbmais {
+  background-color: #e6e6e6;
+  color: #3b3b3b;
+  font-size: 25px;
+  margin-top: 5%;
+  padding: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-weight: 800;
+  border: 2px solid #707070;
+  transition: background-color 0.3s ease;
+  font-family: 'Bradley Hand', cursive;
+  border-radius: 5px;
+  margin-right: 35px;
+}
+
+.botaosbmais:hover {
+  background-color: #707070;
+  color: #e6e6e6;
+}
+
+
+.botaocontato:hover {
+  transform: scale(1.01);
+}
+
+.secao1-2 {
+  padding-top: 3%;
+  padding-right: 10%;
+  margin: -10px;
+  color: #100d21;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-align: justify;
+}
+
+
+.secao1-2 h1 {
+  margin-bottom: -40px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.secao1-2 h2 {
+  margin-bottom: -5px;
+  font-size: 60px;
+  line-height: 110%;
+}
+
+.secao1-2 h3 {
+  font-size: 25px;
+  margin-bottom: -5px;
+  font-weight: 400;
+}
+
+
+.cards {
+  margin: -10px;
+  margin-top: 1%;
+  color: #100d21;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  align-items: stretch;
+}
+
+.cards img {
+  width: 120px;
+  float: left;
+  margin-left: 2%;
+  margin-top: -1%;
+}
+
+.cards div {
+  border-radius: 15px;
+  height: 300px;
+  width: 100%;
+  padding: 3%;
+  background-color: #fff;
+  margin-right: 15px;
+  color: #2e2e2e;
+  text-align: left;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+
+
+.cards div:hover {
+  background-color: #67afbe;
+  transform: scale(1.01);
+  color: #fff;
+}
+
+.cards p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+header {
+  background-color: #FFF;
+  color: #fff;
+  padding-left: 10%;
+  padding-right: 15%;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo img {
+  max-width: 200px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #3b3b3b;
+  text-decoration: none;
+  font-family: "https://kinsta.com/pt/blog/fontes-seguras-na-web/#11-courier-new", sans-serif;
+  font-size: 16px;
+  font-weight: 550;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  transform: scale(1.1);
+}
+
+.secao3 {
+  display: flex;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 8%;
+  align-items: center;
+}
+
+.secao3-1 {
+  margin: -10px;
+  color: #100d21;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-align: justify;
+  margin-right: 30px;
+}
+
+.secao3-1 h3 {
+  font-size: 15px;
+}
+
+.secao3-1 h2 {
+  font-size: 25px;
+  margin-top: -10px;
+}
+
+.secao3-1 p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.secao3-2 {
+  flex-direction: column;
+  margin-top: -15px;
+}
+
+.cont {
+  display: flex;
+  align-items: center;
+  margin-bottom: -40px;
+  margin-top: -40px;
+  justify-items: center;
+}
+
+.linhavert {
+  width: 2px;
+  height: 100px;
+  background-color: #000;
+  opacity: 0.6;
+}
+
+.cont h2 {
+  color: #24226d;
+  font-size: 50px;
+  width: 80%;
+  padding-left: -30px;
+}
+
+.cont p {
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.secao4 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  justify-content: center;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 8%;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background-image: url("img/consultoriabg.png");
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.secao4 h2 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: -10px;
+  margin-top: -10px;
+}
+
+.secao4 h3,
+.secao4 p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+
+.input {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input input {
+  margin-right: 30px;
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  outline: none;
+}
+
+.input input::placeholder {
+  color: #fff;
+  font-weight: 600px;
+}
+
+.input input:last-child {
+  margin-right: 0;
+}
+
+.form {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  align-items: center;
+  padding: 15px;
+}
+
+.btform input {
+  background-color: #fff;
+  color: #60a9b9;
+  font-size: 30px;
+  margin-top: 5%;
+  padding: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-weight: 800;
+  border: 0;
+  transition: transform 0.3s ease;
+  font-family: 'Bradley Hand', cursive;
+  border-radius: 5px;
+  margin-right: 35px;
+}
+
+.btform input:hover {
+  transform: scale(1.1);
+}
+
+.secao5 {
+  margin: -10px;
+  margin-top: 2%;
+  padding-bottom: 5%;
+  color: #100d21;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+
+.secao5 div {
+  margin-right: 30px;
+}
+
+.secao5 div:last-child {
+  margin-right: 0;
+}
+
+.colunas {
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+}
+
+.copy {
+  color: #000d21;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: -10px;
+}
+
+.icones {
+  font-size: 25px;
+  color: #212121;
+}
