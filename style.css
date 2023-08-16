@@ -396,3 +396,6 @@ nav ul li a:hover {
   font-size: 25px;
   color: #212121;
 }
+.servicos input{
+  vertical-align: center;
+}
