@@ -40,7 +40,7 @@ html {
 
 .botoes {
   display: flex;
-  vertical-align: center;
+  align-items: center;
 }
 
 .botaocontato {
