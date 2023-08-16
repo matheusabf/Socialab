@@ -40,6 +40,7 @@ html {
 
 .botoes {
   display: flex;
+  vertical-align: center;
 }
 
 .botaocontato {
@@ -395,7 +396,4 @@ nav ul li a:hover {
 .icones {
   font-size: 25px;
   color: #212121;
-}
-.servicos input{
-  vertical-align: center;
 }
