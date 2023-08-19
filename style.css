@@ -401,6 +401,9 @@ nav ul li a:hover {
     padding-right:6%;
     margin: 0%;
   }
+  html{
+    font-family: 'Helvetica', sans-serif;
+  }
   .cards div{
     flex-direction:column;
     align-items:center;
