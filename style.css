@@ -51,6 +51,7 @@ html {
   font-weight: 800;
   border: 0;
   transition: transform 0.3s ease;
+  font-family: 'Bradley Hand', cursive;
   border-radius: 5px;
   margin-right: 35px;
 }
@@ -381,7 +382,7 @@ nav ul li a:hover {
 
 .copy {
   color: #000d21;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
   text-align: center;
   margin: -10px;
