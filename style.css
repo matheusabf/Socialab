@@ -92,7 +92,6 @@ body {
 .secao1-2 {
   padding-top: 3%;
   padding-right: 10%;
-  margin: -10px;
   color: #100d21;
   display: inline-block;
   width: 100%;
@@ -122,7 +121,6 @@ body {
 
 
 .cards {
-  margin: -10px;
   margin-top: 1%;
   color: #100d21;
   display: flex;
@@ -225,7 +223,6 @@ nav ul li a:hover {
 }
 
 .secao3-1 {
-  margin: -10px;
   color: #100d21;
   display: inline-block;
   width: 100%;
@@ -240,7 +237,6 @@ nav ul li a:hover {
 
 .secao3-1 h2 {
   font-size: 25px;
-  margin-top: -10px;
 }
 
 .secao3-1 p {
@@ -284,8 +280,6 @@ nav ul li a:hover {
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
-  margin-left: -10px;
-  margin-right: -10px;
   margin-top: 8%;
   align-items: center;
   text-align: center;
@@ -366,7 +360,6 @@ nav ul li a:hover {
 }
 
 .secao5 {
-  margin: -10px;
   margin-top: 2%;
   color: #100d21;
   display: flex;
@@ -393,7 +386,6 @@ nav ul li a:hover {
   padding-top: 20px;
   padding-bottom: 10px;
   text-align: center;
-  margin: -10px;
 }
 
 .icones {
