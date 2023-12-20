@@ -6,6 +6,13 @@ html {
   text-align: justify;
   scroll-behavior: smooth;
   display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
 }
 
 .secao img {
