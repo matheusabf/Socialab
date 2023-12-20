@@ -144,7 +144,8 @@ body {
   width: 100%;
   padding: 3%;
   background-color: #fff;
-  margin-right: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
   color: #2e2e2e;
   text-align: left;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
@@ -408,8 +409,8 @@ nav ul li a:hover {
     flex-direction:column;
     align-items:center;
     margin-top: 5%;
-    margin-left:5%;
-    margin-right:10px;
+    margin-left:2%;
+    margin-right:2%;
     font-size:20px;
     padding-bottom: 10%;
   }
