@@ -2,7 +2,7 @@ html {
   height: 100%;
   width: 100%;
   color: #3b3b3b;
-  font-family: 'Bradley Hand', cursive;
+  font-family: 'Open Sans', sans-serif;
   text-align: justify;
   scroll-behavior: smooth;
   display: flex;
@@ -58,7 +58,7 @@ body {
   font-weight: 800;
   border: 0;
   transition: transform 0.3s ease;
-  font-family: 'Bradley Hand', cursive;
+  font-family: 'Open Sans', sans-serif;
   border-radius: 5px;
   margin-right: 35px;
 }
@@ -74,7 +74,7 @@ body {
   font-weight: 800;
   border: 2px solid #707070;
   transition: background-color 0.3s ease;
-  font-family: 'Bradley Hand', cursive;
+  font-family: 'Open Sans', sans-serif;
   border-radius: 5px;
   margin-right: 35px;
 }
