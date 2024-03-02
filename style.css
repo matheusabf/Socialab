@@ -334,10 +334,41 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
+  width:100%;
   align-items: center;
   padding: 15px;
 }
 
+.formobj{
+  max-width:60%;
+}
+.formobj input{
+  width:46%;
+  position:relative;
+  background-color:#0000007c;
+  border:0px;
+  margin-bottom:20px;
+
+  color:#fff;
+  padding:15px;
+}
+.formobj input::placeholder{
+  color:#cacaca;
+}
+.formobj button{
+    background-color: #2e2e2e4d;  
+    font-size:35px;
+    color: #ffffff9a;  
+  padding: 20px 10% 25px 10%;
+  border-radius: 15px;
+  border: 2px solid;
+  border-color: #2e2e2e;
+  cursor:pointer;
+  transition: transform .4s;
+} 
+.formobj button:hover{
+  transform: scale(1.01);
+}
 .btform input {
   background-color: #fff;
   color: #60a9b9;
